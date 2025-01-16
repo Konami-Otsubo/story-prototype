@@ -1,0 +1,60 @@
+/* 全体の設定 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-size: cover; /* 背景を全体にフィット */
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* ログイン画面の背景 */
+.log-in-background {
+  background-image: url('../img/log_in.png'); /* 正しい画像パスを設定 */
+  background-size: contain; /* 背景を画面全体に表示 */
+  background-position: center; /* 背景の位置を中央に調整 */
+}
+
+/* ログインコンテナ */
+.log-in-container {
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+}
+
+/* 入力フォームの設定 */
+.input-container {
+  width: 100%;
+}
+
+.input-box {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+/* ボタン設定 */
+.button-container {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.button-image {
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+}
